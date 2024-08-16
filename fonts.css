@@ -1,0 +1,19 @@
+@font-face {
+  font-family: alpino-regular;
+  src: url("./tipografia/Alpino-Regular.woff");
+}
+
+@font-face {
+  font-family: alpino-light;
+  src: url("./tipografia/Alpino-Light.woff");
+}
+
+@font-face {
+  font-family: alpino-bold;
+  src: url("./tipografia/Alpino-Bold.woff");
+}
+
+@font-face {
+  font-family: sunday;
+  src: url("./tipografia/The\ Sunday.otf");
+}
