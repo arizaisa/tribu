@@ -28,14 +28,14 @@ img {
 h1 {
   color: #66103d;
   font-family: sunday;
-  font-size: 38px;
+  font-size: 42px;
   text-align: right;
 }
 
 .paragraph-1 {
   color: #66103d;
   font-family: alpino-regular;
-  font-size: 20px;
+  font-size: 22px;
   text-align: right;
 }
 
@@ -46,7 +46,7 @@ h1 {
   color: #66103d;
   width: 150px;
   height: 40px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 50px;
   outline: 2px solid #66103d;
   font-family: alpino-regular;
@@ -54,8 +54,9 @@ h1 {
 }
 
 .boton:hover {
-  background-color: #66103d;
-  color: #f2efe6;
+  outline: #cf5d9d;
+  background-color: #cf5d9d;
+  color:#66103d; 
 }
 
 .intro-text {
@@ -64,27 +65,28 @@ h1 {
   justify-content: end;
   align-items: flex-end;
   width: 400px;
-  margin-right: 80px;
+  margin-right: 120px;
   gap: 10px;
 }
 
 @media screen and (max-width: 900px) {
   h1 {
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .paragraph-1 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .boton {
+    outline: 1px solid #66103d;
     width: 100px;
     height: 30px;
     font-size: 14px;
   }
 
   .intro-text {
-    width: 300px;
+    width: 400px;
     margin-right: 60px;
   }
 }
@@ -106,6 +108,6 @@ h1 {
 
   .intro-text {
     width: 300px;
-    margin-right: 20px;
+    margin-right: 15px;
   }
 }

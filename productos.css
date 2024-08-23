@@ -43,8 +43,8 @@ img {
 }
 
 .imagen-prod {
-  width: 257px;
-  height: 268px;
+  width: 317px;
+  height: 328px;
 }
 
 .producto {
@@ -72,26 +72,32 @@ img {
   position: absolute;
   z-index: 1;
   width: 100%;
-  border-top: 1px dotted #9e6c85;
+  border-top: 1px dotted #66103d;
 }
 
 .boton-producto {
   height: 30px;
-  width: 150px;
+  width: 170px;
   background-color: #66103d;
   border-radius: 50px;
   color: #f2efe6;
   font-family: alpino-regular;
-  font-size: 12px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
+  cursor: pointer;
+}
+
+.boton-producto:hover{
+  background-color: #f2efe6;
+  color: #66103d;
 }
 
 .texto-producto {
   font-family: alpino-regular;
-  font-size: 16px;
+  font-size: 20px;
   color: #66103d;
 }
 

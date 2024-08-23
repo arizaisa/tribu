@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #f2efe6;
-  height: 150px;
+  height: 180px;
 }
 
 .img-wrapper {
@@ -29,14 +29,14 @@ header {
 
 .logo {
   object-fit: contain;
-  width: 80px;
+  width: 100px;
 }
 
 .links {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
   color: #66103d;
   font-family: alpino-regular;
   border-top: 2px solid #66103d;
@@ -55,21 +55,23 @@ header {
 
 @media screen and (max-width: 900px) {
   .links {
+    font-size: 14px;
     gap: 30px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   header {
-    height: 130px;
+    height: 120px;
   }
 
   .logo {
     width: 60px;
   }
+
   .links {
-    font-size: 10px;
-    gap: 10px;
+    font-size: 8px;
+    gap: 8px;
   }
 }
 
