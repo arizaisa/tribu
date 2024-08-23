@@ -58,6 +58,7 @@ img {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  justify-self: end;
 }
 
 .button-enrollment:hover {
@@ -71,6 +72,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     gap: 35px;
+    padding: 60px;
   }
 
   .enrollment {
@@ -83,6 +85,7 @@ img {
     width: 150px;
     height: 20px;
     font-size: 16px;
+    justify-self: start;
   }
 }
 
@@ -90,7 +93,8 @@ img {
   .newsletter {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 35px;
+    gap: 0px;
+    padding: 20px;
   }
 
   .text-news {
